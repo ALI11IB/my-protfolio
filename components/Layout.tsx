@@ -26,33 +26,6 @@ const Layout = (props: any) => {
           sizes="16x16"
           href="/assets/images/favicons/favicon-16x16.png"
         />
-
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="/assets/css/bootstrap.min.css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="/assets/css/animate.min.css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="/assets/css/fontawesome-all.min.css"
-        />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="/assets/css/zimed-icon.css"
-        />
-        <link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="/assets/css/responsive.css"
-        />
       </Head>
 
       <div className="page-wrapper">{props.children}</div>
