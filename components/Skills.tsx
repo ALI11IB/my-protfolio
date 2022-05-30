@@ -152,7 +152,6 @@ const Testimonial = () => {
               >
                 {skills.map((skill) => (
                   <SwiperSlide key={skill.id} className={`swiper-slide `}>
-                    {({ isActive }) => isActive && setActive(skill.id)}
                     <p>{skill.name}</p>
 
                     {skill.description}

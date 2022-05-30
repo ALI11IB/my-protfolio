@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-css-tags */
 import React from "react";
 import Head from "next/head";
 
-const Layout = (props) => {
+const Layout = (props: any) => {
   return (
     <div>
       <Head>

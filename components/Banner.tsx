@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 
 const Banner = () => {
@@ -67,8 +68,8 @@ const Banner = () => {
                 developer
               </p>
               <a
-                href="#contact"
-                data-target="#contact"
+                href="/assets/pdf/ALI's_Resume.pdf"
+                target={"_blank"}
                 className="thm-btn banner-one__btn scroll-to-target"
               >
                 My Resume
