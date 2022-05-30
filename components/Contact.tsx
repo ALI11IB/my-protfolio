@@ -20,6 +20,9 @@ const Contact = () => {
         className="contact-one__shape-3"
       />
       <div className="container">
+        <div className="block-title">
+          <h3>Contact Me</h3>
+        </div>
         <div className="row">
           <div className="col-lg-6">
             <div className="contact-one__content">
@@ -61,38 +64,48 @@ const Contact = () => {
             </div>
           </div>
           <div className="col-lg-6">
-            <div className="contact-one__form-wrap">
-              <div className="block-title">
-                <span className="block-title__bubbles"></span>
-                {/* <p>Contact Me</p> */}
-                <h3>Contact Me</h3>
-              </div>
-              <form
-                action=""
-                className="contact-form-validated contact-one__form"
-              >
-                <div className="row">
-                  <div className="col-md-6">
-                    <input type="text" name="name" placeholder="Name" />
+            <div className="contact-one__content">
+              <div className="contact-one__infos">
+                <div className="contact-one__infos-single">
+                  <div className="contact-one__infos-icon">
+                    <i className="fab fa-linkedin"></i>
                   </div>
-                  <div className="col-md-6">
-                    <input type="text" name="email" placeholder="Email" />
-                  </div>
-                  <div className="col-md-12">
-                    <input type="text" name="subject" placeholder="Subject" />
-                  </div>
-                  <div className="col-md-12">
-                    <textarea name="message" placeholder="Message"></textarea>
-                    <button
-                      type="submit"
-                      className="thm-btn contact-one__form-btn"
-                    >
-                      Send Message
-                    </button>
+                  <div className="contact-one__infos-content">
+                    <h3>LinkedIn</h3>
+                    <p>
+                      <a href="https://linkedin.com/in/ali-ibrahem">
+                        https://linkedin.com/in/ali-ibrahem
+                      </a>
+                    </p>
                   </div>
                 </div>
-              </form>
-              <div className="result"></div>
+                <div className="contact-one__infos-single">
+                  <div className="contact-one__infos-icon">
+                    <i className="fab fa-twitter"></i>
+                  </div>
+                  <div className="contact-one__infos-content">
+                    <h3>Twitter</h3>
+                    <p>
+                      <a href="https://twitter.com/Ali_Ibrahem11">
+                        https://twitter.com/Ali_Ibrahem11
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                <div className="contact-one__infos-single">
+                  <div className="contact-one__infos-icon">
+                    <i className="fab fa-github"></i>
+                  </div>
+                  <div className="contact-one__infos-content">
+                    <h3>Github</h3>
+                    <p>
+                      <a href="https://github.com/ALI11IB">
+                        https://github.com/ALI11IB
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

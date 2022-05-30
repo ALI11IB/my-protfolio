@@ -125,6 +125,7 @@ h6 {
   color: #ee464b;
   font-weight: 800;
   font-size: 46px;
+  text-align: center;
 }
 
 .thm-btn {
@@ -3660,7 +3661,8 @@ h6 {
   border-width: 1px;
   border-color: rgb(232, 232, 239);
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 20%);
+  margin: 20px;
 }
 
 .pricing-one__inner {

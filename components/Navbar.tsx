@@ -55,18 +55,6 @@ const Navbar = () => {
           }
         >
           <div className="container">
-            <div className="main-nav__logo-box">
-              <a
-                href="#"
-                className="side-menu__toggler"
-                onClick={() => toggleSideMenuOn()}
-              >
-                <i
-                  className="fa fa-bars"
-                  // onClick={() => toggleSideMenuOn()}
-                ></i>
-              </a>
-            </div>
             <div className="main-nav__main-navigation">
               <ul className="one-page-scroll-menu main-nav__navigation-box">
                 <li className="current scrollToLink">
@@ -85,6 +73,18 @@ const Navbar = () => {
                   <Link href="#contact">Contact</Link>
                 </li>
               </ul>
+            </div>
+            <div className="main-nav__logo-box">
+              <a
+                href="#"
+                className="side-menu__toggler"
+                onClick={() => toggleSideMenuOn()}
+              >
+                <i
+                  className="fa fa-bars"
+                  // onClick={() => toggleSideMenuOn()}
+                ></i>
+              </a>
             </div>
             <div className="main-nav__right">
               <div className="site-footer__social">

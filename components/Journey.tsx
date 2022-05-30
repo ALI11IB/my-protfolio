@@ -3,25 +3,16 @@ import React from "react";
 const myJourney = [
   {
     id: 1,
-    iconbox: "iconbox-s1 d-sm-flex align-items-center",
-    iconcolor: "iconbox-icon color1",
-    spanicon: "icon-designer",
-    title: "Year 2017",
-    text01: "Got my Bachelor Degree in Information ",
-    text02: "Systems and Software Engineering.",
+    iconbox:
+      "iconbox-s1 d-sm-flex justify-content-lg-end align-items-center mgr-iconbox-s1",
+    iconcolor: "iconbox-icon color4",
+    spanicon: "icon-brand",
+    title: "Year 2022",
+    text01: "Start learning BlockChain, earned two certificates from Coursera",
+    text02: " in Smart Contracts, Decentrelized Applications",
   },
   {
     id: 2,
-    iconbox:
-      "iconbox-s1 d-sm-flex justify-content-lg-center align-items-center mgl-iconbox-s1",
-    iconcolor: "iconbox-icon color2 color1",
-    spanicon: "icon-designer",
-    title: "Year 2018",
-    text01: "Start working as FullStack developer",
-    text02: "at Infostrategic, Dubai UAE.",
-  },
-  {
-    id: 3,
     iconbox:
       "iconbox-s1 d-sm-flex justify-content-lg-end align-items-center mgr-iconbox-s1",
     iconcolor: "iconbox-icon color3",
@@ -31,14 +22,23 @@ const myJourney = [
     text02: "Syrian Virtual University.",
   },
   {
-    id: 4,
+    id: 3,
     iconbox:
-      "iconbox-s1 d-sm-flex justify-content-lg-end align-items-center mgr-iconbox-s1",
-    iconcolor: "iconbox-icon color4",
-    spanicon: "icon-brand",
-    title: "Year 2022",
-    text01: "Start learning BlockChain, earned two certificates from Coursera",
-    text02: " in Smart Contracts, Decentrelized Applications",
+      "iconbox-s1 d-sm-flex justify-content-lg-center align-items-center mgl-iconbox-s1",
+    iconcolor: "iconbox-icon color2 color1",
+    spanicon: "icon-designer",
+    title: "Year 2018",
+    text01: "Start working as FullStack developer",
+    text02: "at Infostrategic, Dubai UAE.",
+  },
+  {
+    id: 4,
+    iconbox: "iconbox-s1 d-sm-flex align-items-center",
+    iconcolor: "iconbox-icon color1",
+    spanicon: "icon-designer",
+    title: "Year 2017",
+    text01: "Got my Bachelor Degree in Information ",
+    text02: "Systems and Software Engineering.",
   },
 ];
 const Journey = () => {
