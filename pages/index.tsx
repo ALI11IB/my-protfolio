@@ -9,7 +9,7 @@ import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 const Home: NextPage = () => {
   return (
-    <Layout pageTitle="Protfolio - React Next App">
+    <Layout pageTitle="Protfolio - Ali Ibrahem">
       <Navbar />
       <Banner />
       <Skills />
