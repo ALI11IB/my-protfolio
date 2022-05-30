@@ -59,6 +59,26 @@ const projects = [
 const Projects = () => {
   return (
     <section className="pricing-one" id="projects">
+      <img
+        src="/assets/images/shapes/01.png"
+        alt="Awesome Image"
+        className="projects__one-shape-1"
+      />
+      <img
+        src="/assets/images/shapes/03.png"
+        alt=""
+        className="projects__one-shape-2"
+      />
+      <img
+        src="/assets/images/shapes/05.png"
+        alt=""
+        className="projects__one-shape-3"
+      />
+      <img
+        src="/assets/images/shapes/06.png"
+        alt=""
+        className="projects__one-shape-4"
+      />
       <div className="container">
         <div className="pricing-one__sep"></div>
 

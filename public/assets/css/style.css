@@ -862,9 +862,81 @@ h6 {
 .banner-one__moc {
   border-radius: 500px;
   position: absolute;
-  bottom: 45px;
+  bottom: 200px;
   right: -30px;
   animation: ImgBounce 5s ease-in-out 0s infinite alternate;
+}
+
+.banner-one__content h1:nth-child(1) {
+  margin: 0;
+  font-size: 40px;
+  line-height: 80px;
+  color: #fff;
+  margin-top: 10px;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 400px;
+  animation: type 2s steps(40, end) forwards;
+}
+
+.banner-one__content h1:nth-child(2) {
+  margin: 0;
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: 800;
+  margin-bottom: 25px;
+  opacity: 0;
+  background: linear-gradient(to right, #f8b195, #f67280, #c06c84);
+  white-space: nowrap;
+  width: 400px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  overflow: hidden;
+  animation: shring-animation 2.2s steps(40, end) 2s forwards,
+    blink 0.5s step-end infinite alternate;
+}
+
+@keyframes shring-animation {
+  0% {
+    background-position: 0 0;
+    opacity: 0;
+    width: 0;
+  }
+  1% {
+    background-position: 0 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  50% {
+    background-position: 150px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+  100% {
+    background-position: 400px 0;
+    opacity: 1;
+    border-right: 1px solid orange;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1%,
+  99% {
+    border-right: 1px solid orange;
+  }
+  100% {
+    border-right: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
 
 .banner-one__content h3 {
@@ -876,6 +948,10 @@ h6 {
   color: #fff;
   margin-top: 10px;
   margin-bottom: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 500px;
+  animation: type 2s steps(40, end) forwards;
 }
 
 .banner-one__content p {
@@ -3101,7 +3177,57 @@ h6 {
 [class*="testimonials__one-shape-"] {
   position: absolute;
 }
-
+[class*="projects__one-shape-"] {
+  position: absolute;
+}
+.projects__one-shape-1 {
+  top: 6%;
+  right: 6%;
+  -webkit-animation-name: bubbleMover;
+  animation-name: bubbleMover;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.projects__one-shape-2 {
+  bottom: 6%;
+  right: 6%;
+  -webkit-animation-name: bubbleMover;
+  animation-name: bubbleMover;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.projects__one-shape-3 {
+  top: 6%;
+  left: 6%;
+  -webkit-animation-name: bubbleMover;
+  animation-name: bubbleMover;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+.projects__one-shape-4 {
+  bottom: 30%;
+  left: 6%;
+  -webkit-animation-name: bubbleMover;
+  animation-name: bubbleMover;
+  -webkit-animation-duration: 9s;
+  animation-duration: 9s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
 .testimonials__one-shape-1 {
   top: -43px;
   left: 2%;

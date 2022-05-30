@@ -56,10 +56,9 @@ const Banner = () => {
         <div className="row">
           <div className="col-lg-7">
             <div className="banner-one__content">
-              {/* <p className="banner-one__tag-line">Welcome to SEO Business <a href="#">free trial</a></p> */}
-              <h3>
-                Hello <br /> Iam Ali Ibrahem
-              </h3>
+              <h1>Hi, my name is</h1>
+              <h1> Ali Ibrahem</h1>
+
               <p>
                 A full stack developer with four years experience building and
                 maintaining responsive websites, developing scalable web apps

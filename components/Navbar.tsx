@@ -16,6 +16,9 @@ const Navbar = () => {
       setSticky(false);
     }
   };
+  const toggleSideMenuOn = () => {
+    document.querySelector(".side-menu__block")!.classList.toggle("active");
+  };
 
   const mobileMenu = () => {
     //Mobile Menu Toggle
@@ -54,7 +57,10 @@ const Navbar = () => {
           <div className="container">
             <div className="main-nav__logo-box">
               <a href="#" className="side-menu__toggler">
-                <i className="fa fa-bars"></i>
+                <i
+                  className="fa fa-bars"
+                  onClick={() => toggleSideMenuOn()}
+                ></i>
               </a>
             </div>
             <div className="main-nav__main-navigation">
