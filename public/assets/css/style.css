@@ -860,6 +860,7 @@ h6 {
 }
 
 .banner-one__moc {
+  border-radius: 500px;
   position: absolute;
   bottom: 45px;
   right: -30px;
@@ -869,7 +870,7 @@ h6 {
 .banner-one__content h3 {
   margin: 0;
   font-size: 70px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: 80px;
   font-weight: 300;
   color: #fff;
@@ -1430,6 +1431,7 @@ h6 {
   background-color: #272839;
   position: relative;
   overflow: hidden;
+  height: 300px;
 }
 
 [class*="site-footer__shape-"] {
@@ -1713,6 +1715,7 @@ h6 {
 
 .contact-one {
   padding-top: 120px;
+  padding-bottom: 120px;
   position: relative;
 }
 
@@ -2845,6 +2848,9 @@ h6 {
   padding: 120px 0;
   position: relative;
   counter-reset: faqNumber;
+  background-image: url(../images/background/16.png);
+  background-position: top;
+  background-repeat: repeat;
 }
 
 [class*="faq-one__shape-"] {
@@ -3949,4 +3955,55 @@ h6 {
 
 html {
   scroll-behavior: smooth;
+}
+.iconbox-s1 {
+  text-align: center;
+}
+.iconbox-s1 .iconbox-icon {
+  margin-bottom: 30px;
+}
+.iconbox-s1 .ct-is {
+  padding-left: 0;
+}
+.iconbox-s1 {
+  margin-bottom: 55px;
+}
+.iconbox-s1:hover .iconbox-icon {
+  -webkit-animation-name: hvr-icon-buzz-out;
+  animation-name: hvr-icon-buzz-out;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+.iconbox-s1 .iconbox-icon.color1 span {
+  background-color: #ff2e59;
+}
+.iconbox-s1 .iconbox-icon.color2 span {
+  background-color: #a345fb;
+}
+.iconbox-s1 .iconbox-icon.color3 span {
+  background-color: #fbbd41;
+}
+.iconbox-s1 .iconbox-icon.color4 span {
+  background-color: #1cdc79;
+}
+.iconbox-s1 .iconbox-icon span {
+  width: 117px;
+  height: 117px;
+  line-height: 117px;
+  font-size: 65px;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+}
+.iconbox-s1 .ct-is {
+  padding-left: 50px;
+}
+.iconbox-s1 .ct-is .title a {
+  font-size: 24px;
+  font-family: "Archivo Black", sans-serif;
 }

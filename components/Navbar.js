@@ -69,13 +69,6 @@ export default class Navbar extends React.Component {
           >
             <div className="container">
               <div className="main-nav__logo-box">
-                <a href="/" className="main-nav__logo">
-                  <img
-                    src="/assets/images/logo-1-1.png"
-                    width="105"
-                    alt="Awesome Image"
-                  />
-                </a>
                 <a href="#" className="side-menu__toggler">
                   <i className="fa fa-bars"></i>
                 </a>
@@ -100,13 +93,32 @@ export default class Navbar extends React.Component {
                 </ul>
               </div>
               <div className="main-nav__right">
-                <a
-                  href="#contact"
-                  data-target="#contact"
-                  className="thm-btn header__btn scroll-to-target"
-                >
-                  Start Trial
-                </a>
+                <div className="site-footer__social">
+                  <a
+                    className="fab fa-linkedin"
+                    href="https://linkedin.com/in/ali-ibrahem"
+                    rel="noreferrer"
+                    target={"_blank"}
+                  ></a>
+                  <a
+                    className="fab fa-twitter"
+                    href="https://twitter.com/Ali_Ibrahem11"
+                    rel="noreferrer"
+                    target={"_blank"}
+                  ></a>
+                  <a
+                    className="fab fa-gitlab"
+                    href="https://gitlab.com/ali.la.ibrahem"
+                    rel="noreferrer"
+                    target={"_blank"}
+                  ></a>
+                  <a
+                    className="fab fa-github"
+                    href="https://github.com/ALI11IB"
+                    rel="noreferrer"
+                    target={"_blank"}
+                  ></a>
+                </div>
               </div>
             </div>
           </nav>

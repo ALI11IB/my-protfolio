@@ -92,7 +92,12 @@ const Projects = () => {
                       ))}
                     </div>
 
-                    <a href="#" className="thm-btn pricing-one__btn">
+                    <a
+                      href={project.link}
+                      rel="noreferrer"
+                      target={"_blank"}
+                      className="thm-btn pricing-one__btn"
+                    >
                       Preview
                     </a>
                   </div>
@@ -102,7 +107,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="tabed-content">
-          <p className="projects-type">My projects</p>
+          <p className="projects-type">Self Learning</p>
           <div className="row">
             {myProjects.map((project) => (
               <div
@@ -126,7 +131,12 @@ const Projects = () => {
                       ))}
                     </div>
 
-                    <a href="#" className="thm-btn pricing-one__btn">
+                    <a
+                      href={project.link}
+                      rel="noreferrer"
+                      target={"_blank"}
+                      className="thm-btn pricing-one__btn"
+                    >
                       Preview
                     </a>
                   </div>

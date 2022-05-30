@@ -48,7 +48,7 @@ const Banner = () => {
           className="banner-one__shape-moc-1"
         />
         <img
-          src="/assets/images/mocs/banner-moc-1-1.png"
+          src="/assets/images/mocs/me.png"
           alt=""
           className="banner-one__moc"
         />
@@ -57,18 +57,21 @@ const Banner = () => {
             <div className="banner-one__content">
               {/* <p className="banner-one__tag-line">Welcome to SEO Business <a href="#">free trial</a></p> */}
               <h3>
-                We help achieve <br /> biggest goals
+                Hello <br /> Iam Ali Ibrahem
               </h3>
               <p>
-                We are committed to providing our customers with exceptional
-                service <br /> while offering our employees the best training.
+                A full stack developer with four years experience building and
+                maintaining responsive websites, developing scalable web apps
+                from scratch, with very good experience in bootstrap , material
+                UI, plus modern libraries and frameworks, <br /> solidity
+                developer
               </p>
               <a
                 href="#contact"
                 data-target="#contact"
                 className="thm-btn banner-one__btn scroll-to-target"
               >
-                Get Started
+                My Resume
               </a>
             </div>
           </div>

@@ -7,7 +7,7 @@ import Counter from "../components/Counter";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import Brands from "../components/Brands";
-import Faq from "../components/Faq";
+import Journey from "../components/Journey";
 import Contact from "../components/Contact";
 import CallToAction from "../components/CallToAction";
 import Footer from "../components/Footer";
@@ -16,14 +16,14 @@ const Home: NextPage = () => {
     <Layout pageTitle="Protfolio - React Next App">
       <Navbar />
       <Banner />
-      <Services />
-      <Counter />
+      {/* <Services /> */}
+      {/* <Counter /> */}
       <Skills />
       <Projects />
-      <Brands />
-      <Faq />
+      {/* <Brands /> */}
+      <Journey />
       <Contact />
-      <CallToAction />
+      {/* <CallToAction /> */}
       <Footer />
     </Layout>
   );
