@@ -23,12 +23,6 @@ const Contact = () => {
         <div className="row">
           <div className="col-lg-6">
             <div className="contact-one__content">
-              {/* <div className="contact-one__images">
-                                <img src="/assets/images/resources/contact-1.jpg"
-                                     className="wow fadeInUp" data-wow-duration="1500ms" alt=""/>
-                                     <img src="/assets/images/resources/contact-2.jpg"
-                                         className="wow fadeInUp" data-wow-duration="1500ms" alt=""/>
-                            </div> */}
               <div className="contact-one__infos">
                 <div className="contact-one__infos-single">
                   <div className="contact-one__infos-icon">
@@ -70,8 +64,8 @@ const Contact = () => {
             <div className="contact-one__form-wrap">
               <div className="block-title">
                 <span className="block-title__bubbles"></span>
-                <p>Contact Me</p>
-                <h3>Write a Message</h3>
+                {/* <p>Contact Me</p> */}
+                <h3>Contact Me</h3>
               </div>
               <form
                 action=""

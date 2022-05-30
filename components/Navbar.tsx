@@ -56,10 +56,14 @@ const Navbar = () => {
         >
           <div className="container">
             <div className="main-nav__logo-box">
-              <a href="#" className="side-menu__toggler">
+              <a
+                href="#"
+                className="side-menu__toggler"
+                onClick={() => toggleSideMenuOn()}
+              >
                 <i
                   className="fa fa-bars"
-                  onClick={() => toggleSideMenuOn()}
+                  // onClick={() => toggleSideMenuOn()}
                 ></i>
               </a>
             </div>

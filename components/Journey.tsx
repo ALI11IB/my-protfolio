@@ -37,7 +37,7 @@ const myJourney = [
     iconcolor: "iconbox-icon color4",
     spanicon: "icon-brand",
     title: "Year 2022",
-    text01: "Start learning BlockChain, got two certificates from Coursera",
+    text01: "Start learning BlockChain, earned two certificates from Coursera",
     text02: " in Smart Contracts, Decentrelized Applications",
   },
 ];

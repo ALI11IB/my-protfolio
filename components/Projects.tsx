@@ -8,7 +8,7 @@ const myProjects = [
     description: `Eth marketplace for buying used cars.`,
     img: "/assets/images/skills/solidity.png",
     link: " https://eth-cars-marketplace-nine.vercel.app/",
-    tools: ["Solidity", "Web3", "TypeScript", "Nextjs", "TailwindCss"],
+    tools: ["Solidity", "Web3", "Nextjs", "TailwindCss"],
   },
 ];
 const projects = [
@@ -18,18 +18,17 @@ const projects = [
     description: `a fully inegrated CMS with a group of wide services
       for the RAK Chamber Of Commerce & Industry`,
     img: "/assets/images/projects/rak2.png",
-    link: "https://rakex.infostrategic.com/en/home",
+    link: "http://rakexpoevents.ae/",
     tools: ["Node", "typeorm", "React", "Redux", "MaterialUi"],
   },
-  //   {
-  //     id: "2",
-  //     name: "RAK Chamber Of Commerce",
-  //     description: `a fully inegrated CMS with a group of wide services
-  //       for the RAK Chamber Of Commerce & Industry`,
-  //     img: "/assets/images/projects/rak1.png",
-  //     link: "https://rak2.infostrategic.com/en/home",
-  //     tools: ["Node", "typeorm", "React", "Redux", "MaterialUi"],
-  //   },
+  {
+    id: "2",
+    name: "Public Prosecution Portal",
+    description: `  provides a wide group of services of the public prosecution and the latest news and feeds`,
+    img: "/assets/images/projects/prosecution.jpg",
+    link: "http://nppsite.pp.gov.ae/",
+    tools: ["oracle webcenter portal", "java"],
+  },
   {
     id: "3",
     name: "E-Lawyer- System",

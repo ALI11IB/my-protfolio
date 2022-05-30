@@ -63,7 +63,7 @@ const Banner = () => {
                 A full stack developer with four years experience building and
                 maintaining responsive websites, developing scalable web apps
                 from scratch, with very good experience in bootstrap , material
-                UI, plus modern libraries and frameworks, <br /> solidity
+                UI, plus modern libraries and frameworks, <br /> BlockChain
                 developer
               </p>
               <a

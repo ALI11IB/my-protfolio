@@ -3672,6 +3672,7 @@ h6 {
 }
 
 .pricing-one__icon {
+  height: 150px;
   position: relative;
 }
 
@@ -3704,8 +3705,8 @@ h6 {
   display: flex;
   justify-content: center;
   margin: 10px 0;
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 800;
   color: #2c2c2e;
 }
 .pricing-one__line {
